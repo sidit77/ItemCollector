@@ -9,8 +9,6 @@ import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
-import net.minecraft.network.PacketByteBuf;
-import net.minecraft.text.LiteralText;
 import org.apache.logging.log4j.Level;
 import org.lwjgl.glfw.GLFW;
 
