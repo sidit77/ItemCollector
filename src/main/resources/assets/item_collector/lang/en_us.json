@@ -1,3 +1,5 @@
 {
-  "key.item_collector.collect": "Collect Items"
+  "key.item_collector.collect": "Toggle Item Collector",
+  "msg.item_collector.activated": "Item Collector Activated",
+  "msg.item_collector.deactivated": "Item Collector Deactivated"
 }
