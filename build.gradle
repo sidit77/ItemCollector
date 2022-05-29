@@ -12,6 +12,7 @@ repositories {
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
+    mavenCentral()
 }
 
 dependencies {
@@ -22,6 +23,9 @@ dependencies {
 
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    modImplementation "com.oroarmor:oro-config-fabric:${project.oroconfig_version}"
+    include "com.oroarmor:oro-config-fabric:${project.oroconfig_version}"
 }
 
 processResources {
@@ -33,7 +37,7 @@ processResources {
     }
 }
 
-def targetJavaVersion = 8
+def targetJavaVersion = 9
 tasks.withType(JavaCompile).configureEach {
     // ensure that the encoding is set to UTF-8, no matter what the system default is
     // this fixes some edge cases with special characters not displaying correctly

@@ -1,5 +1,8 @@
 {
   "key.item_collector.collect": "Toggle Item Collector",
   "msg.item_collector.activated": "Item Collector Activated",
-  "msg.item_collector.deactivated": "Item Collector Deactivated"
+  "msg.item_collector.deactivated": "Item Collector Deactivated",
+  "config.item_collector.range": "The range in which items are collected",
+  "config.item_collector.max_acceleration": "The maximum acceleration per tick",
+  "config.item_collector.acceleration_factor": "The acceleration factor (acc = factor * distance)"
 }
